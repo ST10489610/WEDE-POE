@@ -160,3 +160,4 @@ References
 
 •	Mart production, https://www.pexels.com/photo/gray-haired-man-creating-perfume-8450232/
 
+I have updated and properly referenced my proposal. AND i have updated my website by adding more css and javascript
