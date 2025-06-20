@@ -18,7 +18,42 @@
 
             <p> If you want to join the Elegant Scents Team To Keep Everyone In The Streets and Offices Smelling Fresh and Amazing at an Affordable Price, send an email to Hr@Elegant scents.ac.za</p>
             
-            <img src="img/spraying perfume.jpg" height="10%" width="20%" alt="spraying perfume">
+            <form id="enquiryForm">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="enquiryType">I am interested in:</label>
+    <select id="enquiryType" name="enquiryType" required>
+      <option value="">-- Please select --</option>
+      <option value="product">Enquiring about a Product</option>
+      <option value="volunteer">Becoming a Volunteer</option>
+    </select>
+
+    <!-- Product Enquiry Section -->
+    <div id="productSection" class="section">
+      <label for="productName">Product Name:</label>
+      <input type="text" id="productName" name="productName">
+
+      <label for="productMessage">Your Question:</label>
+      <textarea id="productMessage" name="productMessage" rows="4"></textarea>
+    </div>
+
+    <!-- Volunteer Section -->
+    <div id="volunteerSection" class="section">
+      <label for="experience">Do you have any experience with perfumes/cosmetics?</label>
+      <textarea id="experience" name="experience" rows="4"></textarea>
+
+      <label for="availability">Availability (e.g., weekends, weekdays):</label>
+      <input type="text" id="availability" name="availability">
+    </div>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+
+            <img  src="img/spraying perfume.jpg"  height="30%" width="30%" alt="spraying perfume">
             
             
             <div class="footer">
